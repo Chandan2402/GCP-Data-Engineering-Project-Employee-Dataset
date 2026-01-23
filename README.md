@@ -15,13 +15,6 @@ Workflow orchestration handled using Apache Airflow (Cloud Composer).
 - Apache Airflow (Cloud Composer) – pipeline orchestration
 - Google BigQuery – data warehousing and analytics
 
-## What I Built
-1. Uploaded raw CSV and JSON datasets to Amazon S3
-2. Converted JSON files to Parquet using AWS Lambda
-3. Processed CSV files using AWS Glue ETL jobs (PySpark)
-4. Joined multiple datasets using AWS Glue
-5. Queried transformed data using Amazon Athena
-
 ## Data Pipeline Workflow
 1. Data Extraction
     - Raw data is extracted using a Python script
